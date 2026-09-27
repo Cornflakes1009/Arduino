@@ -14,6 +14,7 @@ A simple Arduino-based scare machine that plays a scream through a speaker when 
 - AUX Speaker
 - Breadboard and jumper wires
 - Power supply
+- Rubber band
 
 ## Wiring
 
@@ -53,7 +54,7 @@ The photoresistor has no polarity.
 - DFPlayer GND → RING2
 - SLEEVE → disconnected
 
-Connect the breakout to the speaker with a normal 3.5mm AUX cable.
+Connect the breakout to the speaker with a normal 3.5mm AUX cable. I was having a terrible time with audio feedback. I used a rubber band wrapped around the breadboard to hold the cable still and this solved that issue. 
 
 ## MicroSD Card
 
